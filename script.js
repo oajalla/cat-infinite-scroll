@@ -23,7 +23,6 @@ function updateAPIURLWithNewCount(picCount){
 
 // Check if all images were loaded
 function imageLoaded(){
-    console.log('image loaded');
     imagesLoaded++;
     if(imagesLoaded===totalImages){
         ready = true;
